@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             while (varCursor.moveToNext()){
                 arrNama.add(varCursor.getString(1));
                 arrAlamat.add(varCursor.getString(2));
-                arrJam.add(varCursor.getString(3))
+                arrJam.add(varCursor.getString(3));
             }
         }
     }

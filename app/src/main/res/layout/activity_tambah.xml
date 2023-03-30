@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/et_nama"
         android:layout_margin="6dp"
-        android:text="Nama Lengkap"/>
+        android:text="Alamat Lengkap"/>
 
     <EditText
         android:layout_width="match_parent"

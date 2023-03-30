@@ -80,4 +80,23 @@ public class MyDatabaseHelper extends SQLiteOpenHelper{
 
         return varCursor;
     }
+
+    public long ubahDATA(String id, String nama, String alamat, String jam) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues cv = new ContentValues();
+
+        cv.put(FIELD_NAMA, nama);
+        cv.put(FIELD_ALAMAT, alamat);
+        cv.put(FIELD_JAM, jam);
+
+        long eksekusi = db.update(TABLE_NAME, cv, "id = ?", new String[]{id});
+        return eksekusi;
+    }
+
+    public long hapusDATA(String id) {
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        long eksekusi = db.delete(TABLE_NAME, "id = ?", new String[]{id});
+        return eksekusi;
+    }
 }
