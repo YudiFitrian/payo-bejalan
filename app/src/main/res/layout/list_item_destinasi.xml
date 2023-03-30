@@ -17,7 +17,8 @@
             android:layout_height="wrap_content"
             android:text="Id"
             android:textSize="17sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:visibility="gone"/>
 
         <TextView
             android:id="@+id/tv_nama"
