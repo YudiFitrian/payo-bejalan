@@ -34,6 +34,7 @@ public class AdapterDestinasi extends RecyclerView.Adapter<AdapterDestinasi.View
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolderDestinasi holder, int position) {
+        holder.tvId.setText(arrId.get(position).toString());
         holder.tvNama.setText(arrNama.get(position).toString());
         holder.tvAlamat.setText(arrAlamat.get(position).toString());
         holder.tvJam.setText(arrJam.get(position).toString());
