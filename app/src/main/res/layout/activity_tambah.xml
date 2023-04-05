@@ -23,21 +23,21 @@
         android:layout_height="wrap_content"
         android:id="@+id/et_nama"
         android:layout_margin="6dp"
-        android:text="Alamat Lengkap"/>
+        android:hint="Alamat Lengkap"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/et_alamat"
         android:layout_margin="6dp"
-        android:text="Alamat"/>
+        android:hint="Alamat"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/et_jam"
         android:layout_margin="6dp"
-        android:text="Jam"/>
+        android:hint="Jam"/>
 
     <Button
         android:layout_width="match_parent"
